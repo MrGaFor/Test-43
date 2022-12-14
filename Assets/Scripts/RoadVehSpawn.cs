@@ -18,8 +18,6 @@ public class RoadVehSpawn : MonoBehaviour
     public Transform PeoplePoint_2;
     [Range(0, 1)]
     [SerializeField] float PeopleChance = 0.5f;
-    private int leftId = 0;
-    private int rightId = 0;
     private Transform tempObj;
     private Vehicle SelectVeh;
 
